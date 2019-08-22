@@ -11,11 +11,16 @@ from sqlalchemy.ext.declarative import declarative_base
 # engine = create_engine('sqlite:////tmp/teste.db', echo=True)
 # Base = declarative_base(bind=engine)
 
-class Country:
-    
-        
 def main():
     
+    random_tile = tiles.Tile()
+    
+    cold_tile = tiles.Tile("Michael Dresser", "wl")
+    
+    print(random_tile)
+    print(cold_tile)
+    
+    input()
     
 if __name__ == "__main__":
     main()
